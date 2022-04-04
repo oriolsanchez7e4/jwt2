@@ -5,7 +5,6 @@ rutas:
     /employee
     /login
     /usuaris
-    /hello
 
 
 Usuari creat:
@@ -29,6 +28,7 @@ Usuari:
     private String password;
     private String avatar;
     private String rol = "USER"; //per defecte
+
     
 UsuariDTO:
 
@@ -39,11 +39,9 @@ UsuariDTO:
     
 Employee:
     
-    @javax.persistence.Id
-    @Column(name = "id", nullable = false)
-    private Long id;
     @Id
     @GeneratedValue
+    private Long id;
     private String nom;
     private String plataforma;
     private double preu;
