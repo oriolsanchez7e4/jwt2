@@ -36,9 +36,7 @@ public class ControladorRegistreLoginUsuaris {
     "avatar":"http://imatge.com"
     }
 
-    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.
-            eyJzdWIiOiIxIiwiaWF0IjoxNjQ4NDkwMDAzLCJleHAiOjE2NDg1NzY0MDMsImZ1bGxuYW1lIjoiT3Jpb2wiLCJyb2xlcyI6IlVTRVIifQ.
-            21vVXLLzlaVbECn-sCWBXHRDA1UkpejJs5CZOG9Z3wEf7P7DQcvVxfDpcciTu_O9BAfcKsGmx1BOsL-cuEvIxw
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjQ5MDkxMTk5LCJleHAiOjE2NDkxNzc1OTksImZ1bGxuYW1lIjoiT3Jpb2wiLCJyb2xlcyI6IlVTRVIifQ.vzRNdTMSMpUhmJjhf-BbFbLOXMfiazAWFBGN8K4-R_UnXY_8fPn14KaW6XC65zqjGFVdekzVHgpgLvUvB7zLbA
 
     Afegeix id automàticament
      */
@@ -89,6 +87,16 @@ public class ControladorRegistreLoginUsuaris {
         UsuariConsultaDTO usu2=new UsuariConsultaDTO(usu.getUsername(),usu.getAvatar(),usu.getRol());
            return usu2;
     }
+
+
+//    {
+//        "username": "Montse",
+//        "avatar": null,
+//        "rol": "USER",
+//        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.
+//        eyJzdWIiOiIzMyIsImlhdCI6MTY0OTA5MTA2MiwiZXhwIjoxNjQ5MTc3NDYyLCJmdWxsbmFtZSI6Ik1vbnRzZSIsInJvbGVzIjoiVVNFUiJ9.
+//        6kWT1sh-i2mEZLPFEiJ6UE7sjBc-4FeADtvUeLAa-c0vYmslEhKdnecd1fD_7pk3CtUbNgrerrStyaBP4chpFA"
+//    }
 
 
 
